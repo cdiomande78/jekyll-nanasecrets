@@ -1,7 +1,7 @@
 body {
 	color:#787680;
 	font-family: Open Sans;
-	background-image: url("/images/grid.jpg");
+	background-image: {{ site.baseurl }}/images/grid.jpg;
 }	
 h1 {
 	color: #ee4d8a;
@@ -39,7 +39,7 @@ a:hover {
 }
 
 #wrapper {
-	background-image: url("/images/background.jpg");
+	background-image: {{ site.baseurl }}/images/background.jpg;
 	height: 650px;
 	background-size: cover;
 	text-align: center;
