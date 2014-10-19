@@ -1,7 +1,7 @@
 body {
 	color:#787680;
 	font-family: Open Sans;
-	background-image: url("../images/grid.jpg");
+	background-color: #fff;
 }	
 h1 {
 	color: #ee4d8a;
@@ -38,7 +38,7 @@ a:hover {
 	font-size: 24px;
 }
 .vertical-spacer {
-	padding-top: 8em;
+	padding-top: 4em;
 }
 #wrapper {
 	background-image: url("../images/background.jpg");
