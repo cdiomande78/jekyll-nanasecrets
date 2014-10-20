@@ -7,7 +7,11 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
-		<h1>{{ page.title }}</h1>
+		<div class="jumbotron">
+      <h1>{{ page.title }}</h1>
+      <p>...</p>
+      <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+     </div>
 
       	{{ content }}
 
@@ -30,3 +34,15 @@ layout: default
     </div>
   </div>
 </div>
+
+<ul class="pagination">
+  <li class="disabled"><a href="#">&laquo;</a></li>
+  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+  ...
+</ul>
+
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+
