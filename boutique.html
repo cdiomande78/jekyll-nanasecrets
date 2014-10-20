@@ -9,20 +9,29 @@ title: Boutique - Nanasecrets
       	<h1 class="text-center">Nos produits</h1>      
       </div>
     </div>
+</div>
 
-    <div class="row">
-    	{% for produits in site.data.produits %}
+<div class="container text-center">
+  <div class="row">
 
-    	<div class="col-sm-4">
-    	<div class="thumbnail">
-    		<img src="images/produits/{{ produits.filename }}" alt="">
-    		<div class="caption">
-    		<h2>{{ produits.nom }}</h2>
-    		</div>
-    	</div>
+  	{% for produits in site.data.produits %}
+
+  <div class="col-xs-18 col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="images/produits/{{ produits.filename }}" alt="..." width="65 px">
+      <div class="caption">
+      	<h3 class="pull-right">$94.99</h3>
+      	<h3>{{ produits.nom }}</h3>
+        <p>{{ produits.description }}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Acheter</a> <a href="#" class="btn btn-default" role="button">Voir plus</a></p>
+      </div>
     </div>
+  </div>
 
-   {% endfor %}
+  {% endfor %}
+
+</div>
+</div>
     
     </div>
 </div>

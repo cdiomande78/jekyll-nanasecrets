@@ -12,6 +12,18 @@ h1 {
 	border-radius: 50%;
 	width: 70px;
 }
+.carousel-holder {
+    margin-bottom: 30px;
+}
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
 a {
 	color:#ee4d8a;
 	text-decoration: none;
