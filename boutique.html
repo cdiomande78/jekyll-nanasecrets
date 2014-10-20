@@ -9,33 +9,20 @@ title: Boutique - Nanasecrets
       	<h1 class="text-center">Nos produits</h1>      
       </div>
     </div>
+
     <div class="row">
+    	{% for produits in site.data.produits %}
+
     	<div class="col-sm-4">
     	<div class="thumbnail">
-    		<img src="images/produits/Huile_de_carotte.jpg" alt="">
+    		<img src="images/produits/{{ produits.filename }}" alt="">
     		<div class="caption">
-    		<h2>Huile de soin à la carotte</h2>
-    		</div>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col-sm-4">
-    	<div class="thumbnail">
-    		<img src="images/produits/Huile_de_carotte.jpg" alt="">
-    		<div class="caption">
-    		<h2>Huile de soin à la carotte</h2>
-    		</div>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col-sm-4">
-    	<div class="thumbnail">
-    		<img src="images/produits/Huile_de_carotte.jpg" alt="">
-    		<div class="caption">
-    		<h2>Huile de soin à la carotte</h2>
+    		<h2>{{ produits.nom }}</h2>
     		</div>
     	</div>
     </div>
 
+   {% endfor %}
+    
     </div>
 </div>
