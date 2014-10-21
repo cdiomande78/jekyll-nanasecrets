@@ -9,16 +9,14 @@ title: Boutique - Nanasecrets
       	<h1 class="text-center">Nos produits</h1>      
       </div>
     </div>
-</div>
 
-<div class="container text-center">
   <div class="row">
 
   	{% for produits in site.data.produits %}
 
-  <div class="col-xs-18 col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <img src="images/produits/{{ produits.filename }}" alt="..." width="65 px">
+      <img src="images/produits/{{ produits.filename }}" alt="..." width="100 px">
       <div class="caption">
       	<h3 class="pull-right">$94.99</h3>
       	<h3>{{ produits.nom }}</h3>
@@ -33,5 +31,4 @@ title: Boutique - Nanasecrets
 </div>
 </div>
     
-    </div>
-</div>
+    
