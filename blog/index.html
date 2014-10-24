@@ -53,98 +53,132 @@ title: Blog
 
 <div class="vertical-spacer"></div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-8">
-    <div class="jumbotron">
-      <h1>Le Blog de Nanasecrets</h1>
+<div class="row">
+  <div class="col-xs-12 text-justify">
+    <div class="row">
+      <div class="col-xs-12 text-justify">
+        <h4><strong><a href="#">Title of the post</a></strong></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <a href="#" class="thumbnail">
+            <img src="http://placehold.it/260x180" alt="">
+        </a>
+      </div>
+      <div class="span6">      
+        <p>
+          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+        </p>
+        <p><a class="btn" href="#">Read more</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-justify">
+        <p></p>
+        <p>
+          <i class="icon-user"></i> by <a href="#">John</a> 
+          | <i class="icon-calendar"></i> Sept 16th, 2012
+          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+          <a href="#"><span class="label label-info">UI</span></a> 
+          <a href="#"><span class="label label-info">growth</span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-xs-12 text-justify">
+    <div class="row">
+      <div class="span8">
+        <h4><strong><a href="#">Title of the post</a></strong></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <a href="#" class="thumbnail">
+            <img src="http://placehold.it/260x180" alt="">
+        </a>
+      </div>
+      <div class="span6">      
+        <p>
+          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-justify">
+        <p></p>
+        <p>
+          <i class="icon-user"></i> by <a href="#">Mark</a> 
+          | <i class="icon-calendar"></i> Sept 16th, 2012
+          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+          <a href="#"><span class="label label-info">UI</span></a> 
+          <a href="#"><span class="label label-info">growth</span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="col-xs-12 text-justify">
+    <div class="row">
+      <div class="span8">
+        <h4><strong><a href="#">Title of the post</a></strong></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <a href="#" class="thumbnail">
+            <img src="http://placehold.it/260x180" alt="">
+        </a>
+      </div>
+      <div class="span6">      
+        <p>
+          Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+        </p>
+        <p><a href="#">Read more</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-justify">
+        <p></p>
+        <p>
+          <i class="icon-user"></i> by <a href="#">Mark</a> 
+          | <i class="icon-calendar"></i> Sept 16th, 2012
+          | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+          | <i class="icon-share"></i> <a href="#">39 Shares</a>
+          | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a> 
+          <a href="#"><span class="label label-info">Bootstrap</span></a> 
+          <a href="#"><span class="label label-info">UI</span></a> 
+          <a href="#"><span class="label label-info">growth</span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class="vertical-spacer"></div>
+
+     <h1>Le Blog de Nanasecrets</h1>
+
       {% for post in site.posts %}
         <h2>
           <small>{{ post.date | date_to_string }}</small>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h2>
       {% endfor %}
-
-      <p>...</p>
-      <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
-     </div>
-    </div>
-  </div>
-</div>
-
-<div class="vertical-spacer"></div>
-
-<div class="container text-center">
-  <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="vertical-spacer"></div>
-
-<div class="container text-center">
-  <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x300" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 
 <div class="vertical-spacer"></div>
 
@@ -174,11 +208,3 @@ title: Blog
 </div>
 </div>
 
-     <h1>Le Blog de Nanasecrets</h1>
-
-      {% for post in site.posts %}
-        <h2>
-          <small>{{ post.date | date_to_string }}</small>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      {% endfor %}
