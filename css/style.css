@@ -342,3 +342,110 @@ a:hover {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item2 {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active2 {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
