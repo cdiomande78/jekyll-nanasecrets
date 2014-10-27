@@ -43,23 +43,23 @@ title: Boutique - Nanasecrets
 
 <div class="vertical-spacer"></div>
 
- <h1>Découvrez les produits de notre boutique en linge</h1>      
+ <h1>Découvrez les produits de nos précédentes box</h1>      
 
-<div class="container text-center">
-  <div class="row">
+<div class="container">
+   <div class="row">
+
 
 {% for produits in site.data.produits %}
-
-                    <div class="col-xs-6 col-sm-4">
+                  
+                    <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
-                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">{{ produits.nom }}</a>
-                                </h4>
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
                                 <p>{{ produits.description }}</p>
-                                <p><a href="#" class="btn btn-primary" role="button">Acheter</a> <a href="#" class="btn btn-default" role="button">Voir plus</a></p>
-                            </div>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-primary" role="button">Acheter</a></p>
+   
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
                                 <p>
@@ -69,11 +69,83 @@ title: Boutique - Nanasecrets
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                          </div>
+                      </div>
+                  
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-primary" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+                     <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-primary" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-primary" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
   {% endfor %}
                   </div>
                 </div>
+              
 
     
