@@ -1,19 +1,31 @@
 - filename: Huile_de_carotte.jpg
   nom: "Huile de soin à la carotte"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "5,90€"
 - filename: Aphogee_shampoing.jpg
   nom: "Shampoing hydratant protéiné Aphogee"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "8,90€"
 - filename: komoe_apres_shampoing.jpg
-  nom: "Après shampoing fortifiant Komoé"
+  nom: "Après shampoing Komoé"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "7,99€"
 - filename: darcys-botanicals1.jpg
   nom: "Lait capillaire Darcys Botanicals"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "14,90€"
 - filename: Farity-karite-mangue-passion2.png
   nom: "Beurre de Karité Mangue Passion"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "10€"
 - filename: Headband_bijoux.png
   nom: "Headband bijoux cheveux"
+  courte_description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
   description: "kdhjfhiusfhc iudhfksdjhfklsgd mdfoidfs smofhhv dhdmg m"
+  prix: "5,90€"
 

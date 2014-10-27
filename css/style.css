@@ -164,12 +164,11 @@ a:hover {
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     background: #FFF;
-    text-align: center;
 }
 .col-item .photo img
 {
     margin: 0 auto;
-    width: 40%;
+    width: 100%;
 }
 
 .col-item .info
@@ -263,6 +262,7 @@ a:hover {
 {
     margin-right: 10px;
 }
+
 /* image thumbnail */
 .thumb {
     display: block;
@@ -455,7 +455,7 @@ section {
 
 
 .caption {
-    height: 170px;
+    height: 180px;
     overflow: hidden;
 }
 
