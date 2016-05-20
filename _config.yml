@@ -1,3 +1,4 @@
+markdown: kramdown
 
 # Github repo name for gh-pages hosting
 # If you use your own domain, remove this line (baseurl is empty)
