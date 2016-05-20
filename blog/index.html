@@ -19,6 +19,18 @@ title: Blog
   </div>
 </div>
 
+
+     <h1>Le Blog de Nanasecrets</h1>
+
+      {% for post in site.posts %}
+        <h2>
+          <small>{{ post.date | date_to_string }}</small>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      {% endfor %}
+
+<div class="vertical-spacer"></div>
+
 <div class="vertical-spacer"></div>
 
 <div class="row">
@@ -139,40 +151,4 @@ title: Blog
 
 <div class="vertical-spacer"></div>
 
-     <h1>Le Blog de Nanasecrets</h1>
-
-      {% for post in site.posts %}
-        <h2>
-          <small>{{ post.date | date_to_string }}</small>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      {% endfor %}
-
-<div class="vertical-spacer"></div>
-
-<div class="container text-center">
-  <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/Beaute.png" alt="...">
-    </a>
-  </div>
-    <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/Beaute.png" alt="...">
-    </a>
-  </div>
-    <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/Beaute.png" alt="...">
-    </a>
-  </div>
-    <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/Beaute.png" alt="...">
-    </a>
-  </div>
-  ...
-</div>
-</div>
 
