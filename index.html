@@ -70,6 +70,82 @@ title: Accueil
 
 <div class="vertical-spacer"></div>
 
+{% for produits in site.data.produits %}
+                  
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">{{ produits.prix }}</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.courte_description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-danger" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">{{ produits.prix }}</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.courte_description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-danger" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+                     <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="{{ site.baseurl }}/images/produits/{{ produits.filename }}" alt="" width="">
+                                <div class="caption">
+                                <h4 class="pull-right">{{ produits.prix }}</h4>
+                                <h4><a href="#">{{ produits.nom }}</a></h4>
+                                <p>{{ produits.courte_description }}</p>
+                                <p><a href="#" class="btn btn-default" role="button">Voir plus</a> <a href="#" class="btn btn-danger" role="button">Acheter</a></p>
+   
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+
+
+  {% endfor %}
+
+  <div class="vertical-spacer"></div>
+
 <div class="container">
     <div class="row">
         <div class="row">
