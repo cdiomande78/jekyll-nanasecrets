@@ -79,6 +79,7 @@ a:hover {
 .navbar-transparent .navbar-form,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
+  position: relative;
 }
   
 .navbar-transparent .navbar-nav > li > a:hover,
